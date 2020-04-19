@@ -1,0 +1,14 @@
+{
+	"name": "nextmon",
+	"version": 2,
+	"build": {
+	  "env": {
+		"MONGODB_URI": "@mongodb-uri",
+		"DB_NAME": "@db-name",
+		"SECRET": "@nextmon-secret",
+		"SESSION_STORE_URL": "@session-store-uri",
+		"SESSION_STORE_DB_NAME": "@session-db-name"
+	  }
+	}
+  }
+  
